@@ -1,0 +1,450 @@
+/* body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  padding: 20px;
+  text-align: center;
+  margin: 20px color=black;
+
+}
+
+.franja-transparente {
+  background-color: rgba(7, 132, 154, 0.5);
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  max-height: 80px;
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
+  border: 0.5px solid #000;
+  font-size: 2rem;
+
+}
+
+button {
+  background-color: #416fc5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+}
+
+button:hover {
+  background-color: rgb(69, 57, 180);
+}
+
+
+
+.submenu ul {
+  padding: 10px;
+  cursor: pointer;
+  border: 0.5px solid #ffffff;
+ 
+ 
+}
+
+
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0;
+  background-color: rgb(7, 132, 154, 0.5);
+}
+
+.upload-button {
+  background-color: #2b6cb0;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #5086bf;
+}
+
+.datos-personales, .datos-adicionales {
+  width: 50%;
+  margin: 40px 0;
+  font-size: 23.5px;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.perfil img {
+  width: 200px;
+  height:200px;
+  margin: 20px 0;
+  
+
+}
+
+
+.datos-personales p, .datos-adicionales p {
+  margin: 50px 0;
+  margin-top: 0;
+  margin-inline-start: auto;
+  
+ 
+  
+}
+
+.div-horizontal {
+  background-color: rgb(7, 132, 154, 0.5);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  max-height: 90px; 
+  max-width: 1050px;
+  text-align: center;
+  margin: auto;
+  border: 1.5px solid #000;
+  font-size: 17px
+
+}
+
+.div-horizontal ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+
+.div-horizontal li:hover {
+  box-shadow: 3px 3px 5px rgba(205, 244, 247, 0.3);
+}
+
+.div-horizontal li {
+  padding: 20px;
+  cursor: pointer;
+  border: 1.5px solid #ffffff;
+  justify-content: space-between;
+max-width: 1100px;
+margin: auto;
+font-size: bold;
+}
+
+.cuadro {
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1000px;
+  border: 1px solid #000;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(7, 132, 154, 0.5);
+  font-size: bold;
+
+}
+
+.cuadro h4 {
+  margin: 100;
+  margin-bottom: 500px;
+  font-size: bold;
+
+}
+
+.cuadro h3 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 300px;
+  font-weight: bold;
+}
+
+
+
+
+.cuadro input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+
+}
+
+.h5historial{
+  text-align: center;
+
+}
+
+
+
+
+
+.footer{
+  text-align: center;
+}
+
+.div-horizontal button{
+  background-color: rgba(133, 230, 247, 0.049);
+  color: #000;
+  max-height: 0px; 
+  width: px;
+  align-items: center;
+  padding: 0%;
+  
+}
+
+.div-horizontal button:hover{
+background-color: #5086bf;
+box-shadow: 3px 3px 5px rgba(205, 244, 247, 0.3);
+
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(113, 178, 247, 0.575)
+}
+
+.main {
+  padding: 20px;
+  text-align: center;
+  margin: 20px color=black;
+
+}
+
+.franja-transparente {
+  background-color: rgba(7, 132, 154, 0.5);
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  max-height: 65px;
+  max-width: 1170px;
+  text-align:center;
+  margin: auto;
+  border: 0.5px solid #000;
+  font-size: 1.8rem;
+  border-radius: 10px;
+
+
+}
+
+button {
+  background-color: #416fc5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+}
+
+button:hover {
+  background-color: rgb(69, 57, 180);
+}
+
+
+
+.submenu ul {
+  padding: 10px;
+  cursor: pointer;
+  border: 0.5px solid #ffffff;
+ 
+ 
+}
+
+
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+    background-color: rgb(7, 132, 154, 0.5);
+  max-width: 1170px;
+  align-self: center;
+  border-radius: 10px;
+  border: 0.5px solid
+}
+
+.upload-button {
+  background-color: #2b6cb0;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #5086bf;
+}
+
+.datos-personales, .datos-adicionales {
+  width: 50%;
+  margin: 40px 0;
+  font-size: 23.5px;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.perfil img {
+  width: 200px;
+  height:170px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 0.5px solid
+
+
+}
+
+.div-horizontal li:hover{
+  background-color: #0000004e;
+
+}
+
+
+.div-horizontal {
+  background-color: rgb(7, 132, 154, 0.5);
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  max-height: 100px;
+  max-width: 1150px;
+  text-align: center;
+  margin: auto;
+  font-size: 17px;
+}
+
+.div-horizontal ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0; /* Eliminar el espacio interno del <ul> */
+  
+}
+
+.div-horizontal li:hover {
+  box-shadow: 3px 3px 5px rgba(205, 244, 247, 0.3);
+}
+
+.div-horizontal li {
+  flex: 1; /* Hacer que cada <li> ocupe el mismo espacio */
+  padding: 10px; /* Ajustar el espaciado interno de cada <li> */
+  cursor: pointer;
+  border: 1.5px solid #020202;
+  max-width: 200px; /* Ajustar el ancho máximo de cada <li> */
+  font-size: bold;
+}
+
+/* Estilos para el submenu de Matrícula */
+.div-horizontal .opcion {
+  position: relative; /* Agregamos una posición relativa al elemento padre */
+}
+
+.div-horizontal .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(7, 132, 154) ;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 178px;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid #000;
+
+}
+
+.div-horizontal .submenu li {
+  padding: 5px 10px;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.div-horizontal .submenu li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cuadro {
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1000px;
+  border: 1px solid #000;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(7, 132, 154, 0.5);
+  font-size: bold;
+
+}
+
+.cuadro h4 {
+  margin: 100;
+  margin-bottom: 500px;
+  font-size: bold;
+
+}
+
+.cuadro h3 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 300px;
+  font-weight: bold;
+}
+
+
+
+
+.cuadro input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+
+}
+
+.h5historial{
+  text-align: center;
+
+}
+
+
+
+
+
+.footer{
+  text-align: center;
+}
+
+.div-horizontal button{
+  background-color: rgba(133, 230, 247, 0.049);
+  color: #000;
+  max-height: 0px; 
+  width: px;
+  align-items: center;
+  padding: 0%;
+  
+}
+
+.div-horizontal button:hover{
+background-color: #5086bf;
+box-shadow: 3px 3px 5px rgba(205, 244, 247, 0.3);
+
+}

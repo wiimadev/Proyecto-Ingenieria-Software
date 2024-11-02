@@ -1,0 +1,63 @@
+.titulo {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: xx-large;
+  font-family: sans-serif;
+}
+
+.texto {
+  color: white;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.form input {
+  width: 60%;
+  height: 30px;
+  margin: .5rem;
+  font-family: sans-serif;
+}
+
+.form button {
+  width: 50%;
+  height: 40px;
+  font-size: 24px;
+  color: rgb(48, 62, 247);
+  background-color: #5dade2;
+  border-radius: 12px;
+  font-family: sans-serif;
+}
+
+.form button:hover {
+  background-color: #bddcf1;
+}
+
+.correopersonal{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  color: blue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal{
+  background-color: rgb(5, 5, 5);
+}

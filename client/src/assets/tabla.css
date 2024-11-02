@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  
+  table thead th {
+    background-color: #3798d8;
+    border: 1px solid #181818;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  table tbody td {
+    border: 1px solid #21397e;
+    padding: 8px;
+  }
+  
+  
+  table tbody tr:nth-child(odd) {
+    background-color: #a2d4dd;
+  }

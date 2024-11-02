@@ -1,11 +1,9 @@
-import mongoose from "mongoose";
-import { MONGODB_URI } from "./config.js";
 
-export const connectDB = async () => {
-  try {
-    await mongoose.connect(MONGODB_URI);
-    console.log("MongoDB is connected");
-  } catch (error) {
-    console.error(error);
-  }
-};
+import { createPool } from "mysql2/promise";
+
+export const  pool = createPool({
+    host: 'localhost',
+    user: 'root',
+    password: 'Wimm0105?',
+    database: 'ingenieria'
+})

@@ -1,3 +1,3 @@
 export function Card({ children }) {
-  return <div className="bg-zinc-800 max-w-md w-full p-10 rounded-md">{children}</div>;
+  return <div className=" bg-blue-300 max-w-md w-full h-full p-10 rounded-md space-y-7 border-2 border-blue-700">{children}</div>;
 }
