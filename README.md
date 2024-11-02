@@ -5,7 +5,7 @@ Esta es una aplicacion web usando React, con Nodejs Backend usando Express y MyS
 ### Deployment
 
 ```sh
-git clone https://github.com/FaztWeb/mern-tasks-auth
+git clone https://github.com/wiimadev/Proyecto-Ingenieria-Software.git
 cd mern-tasks-auth
 npm i
 npm run build
