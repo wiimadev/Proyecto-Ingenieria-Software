@@ -1,13 +1,6 @@
-### MERN Stack CRUD with JWT
+### Proyecto de la clase de Ingenieria de Software
 
-This is a web application project using React, with a Nodejs Backend using Express and Mongodb as Database (MERN Stack)
-
-### Installation with docker-compose (Recommended)
-
-```sh
-docker-compose up -d
-npm run dev
-```
+Esta es una aplicacion web usando React, con Nodejs Backend usando Express y MySQL como Base de Datos (MERN Stack)
 
 ### Deployment
 
@@ -18,5 +11,3 @@ npm i
 npm run build
 npm start
 ```
-
-> You need to have a Mongodb database running
