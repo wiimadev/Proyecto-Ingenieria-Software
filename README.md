@@ -6,7 +6,7 @@ Esta es una aplicacion web usando React, con Nodejs Backend usando Express y MyS
 
 ```sh
 git clone https://github.com/wiimadev/Proyecto-Ingenieria-Software.git
-cd mern-tasks-auth
+cd Proyecto Ingenieria Software
 npm i
 npm run build
 npm start
